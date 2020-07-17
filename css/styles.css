@@ -7,3 +7,7 @@
   background-color: #ff7f50;
   color:white;
 }
+
+.main-carousel-item {
+  height: 50vh;
+}
