@@ -24,9 +24,13 @@
 }
 
 .item {
-  height: 70vh;
+  height: 60vh;
 }
 
 .navbar {
    height: 30vh;
+}
+
+.button-open-catalog {
+   height : 10vh;
 }
