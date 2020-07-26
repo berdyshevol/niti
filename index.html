@@ -11,7 +11,7 @@
   <link rel="stylesheet" href="css/styles.css">
 </head>
 <body>
-  <header class="header  pt-2 pb-2">
+  <header class="header  pt-2 pb-2 ">
     <div class="container bg-white">
       <nav class="navbar navbar-light bg-white navbar-expand-md ">
         <a href="#" class="navbar-brand text-md-left"><h1 class = "logo-text">Нити</h1></a>
@@ -36,30 +36,51 @@
           <button type="button" class="btn btn-dark btn-lg ml-auto rounded-0 btn-sm">Push to Start</button>
         </div>
       </nav>
-  </header>
-  
-  <main class="main">
-    <div class="container-fluid bg-light">
-      <section class="main-slider container text-dark bg-light text-center pt-2 ">
-        <div id="demo" class="carousel slide" data-ride="carousel">
+
+      <section class=" container text-dark bg-light text-center pt-2 ">
+        <div class="main-slider carousel slide " data-ride="carousel">
 
           <!-- Indicators -->
-          <ul class="carousel-indicators">
+          <ol class="carousel-indicators">
             <li data-target="#demo" data-slide-to="0" class="active"></li>
             <li data-target="#demo" data-slide-to="1"></li>
             <li data-target="#demo" data-slide-to="2"></li>
-          </ul>
+          </ol>
         
           <!-- The slideshow -->
           <div class="carousel-inner">
             <div class="main-carousel-item carousel-item active ">
-              <img src="./assets/beta_bag_on_bush.jpg" class="d-block w-100" alt="Beta bag on a bush">
+              <div class="item d-block w-100" 
+                  style="background-image: 
+                    url('../assets/beta_bag_on_bush.jpg'); 
+                    background-repeat: no-repeat; 
+                    background-size: contain; 
+                    background-position: center center;"
+              >
+                <!-- <img src="../assets/beta_bag_on_bush.jpg"  alt="Beta bag on a bush"> -->
+              </div>
             </div>
             <div class="main-carousel-item carousel-item ">
-              <img src="./assets/beta_bag.jpg" class="d-block w-100" alt="Beta bag">
+              <div class="item d-block w-100" 
+                  style="background-image: 
+                    url('../assets/beta_bag.jpg'); 
+                    background-repeat: no-repeat; 
+                    background-size: contain; 
+                    background-position: center center;"
+              >
+                <!-- <img src="../assets/beta_bag.jpg" class="d-block w-100" alt="Beta bag"> -->
+              </div>
             </div>
             <div class="main-carousel-item carousel-item ">
-              <img src="./assets/alpha_bag.jpg" class="d-block w-100 " alt="Alpha bag">
+              <div class="item d-block w-100" 
+                  style="background-image: 
+                    url('../assets/alpha_bag.jpg'); 
+                    background-repeat: no-repeat; 
+                    background-size: contain; 
+                    background-position: center center;"
+              >
+                <!-- <img src="../assets/alpha_bag.jpg" class="d-block w-100 " alt="Alpha bag"> -->
+              </div>
             </div>
           </div>
         
@@ -77,6 +98,11 @@
           <a href="#" class="btn btn-outline-dark btn-block btn-lg " role="button" aria-pressed="true">ПЕРЕЙТИ В КАТАЛОГ</a>
         </div>
       </section>
+  </header>
+  
+  <main class="main">
+    <div class="container-fluid bg-light">
+      
         
     </div> 
   </main>

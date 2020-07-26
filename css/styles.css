@@ -19,7 +19,38 @@
   color:white;
 }
 
+.header {
+  height: 100vh;
+  border: 3px solid green;
+}
+
+.main-slider {
+  /* border: 3px solid red; */
+  /* height: 80vh; */
+}
+
+/* .carousel-inner {
+  border: 3px solid yellow;
+  height: auto;
+} */
+
 /* .main-carousel-item {
-  height: 50vh;
-  width: auto;
+  border: 3px solid red;
+}
+*/
+.item {
+  /* border: 3px solid blue; */
+  height: 80vh;
+}
+
+/* .item-1 {
+    background: lightblue url("../assets/beta_bag_on_bush.jpg") no-repeat fixed center !important;
+}
+
+.item-2 {
+  background: lightblue url("../assets/beta_bag.jpg") no-repeat fixed center !important;
+}
+
+.item-3 {
+  background: lightblue url("../assets/alpha_bag.jpg") no-repeat fixed center !important;
 } */
