@@ -1,3 +1,14 @@
+@font-face {
+  font-family: myFont;
+  src: url(../assets/myFont.ttf);
+  font-weight: normal;
+}
+
+.logo-text {
+  font-family: myFont;
+  font-size: 40px;
+}
+
 .header__button {
   background-color: #ff7f50;
   color:white;
@@ -8,6 +19,7 @@
   color:white;
 }
 
-.main-carousel-item {
+/* .main-carousel-item {
   height: 50vh;
-}
+  width: auto;
+} */
